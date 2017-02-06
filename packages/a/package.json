@@ -1,0 +1,11 @@
+{
+  "name": "a",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {},
+  "license": "MIT"
+}
