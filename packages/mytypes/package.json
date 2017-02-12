@@ -1,10 +1,9 @@
 {
-  "name": "b",
+  "name": "mytypes",
   "private": true,
   "version": "1.0.0",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
-    "prepublish": "babel src -d lib --ignore test.js",
     "test": "node index.test.js"
   },
   "repository": {},

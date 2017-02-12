@@ -1,17 +1,26 @@
 {
+  "scripts": {
+    "test": "eslint packages && flow && ava"
+  },
   "devDependencies": {
     "ava": "^0.18.1",
     "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-preset-env": "^1.1.8",
+    "babel-register": "^6.22.0",
     "eslint": "^3.15.0",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
+    "flow-bin": "^0.39.0",
     "lerna": "2.0.0-beta.36"
   },
   "ava": {
     "files": [
       "packages/**/*.test.js"
+    ],
+    "require": [
+      "babel-register"
     ],
     "babel": "inherit"
   }

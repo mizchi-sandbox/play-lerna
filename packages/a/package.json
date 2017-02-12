@@ -7,5 +7,6 @@
     "test": "node index.test.js"
   },
   "repository": {},
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
